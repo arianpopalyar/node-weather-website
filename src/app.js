@@ -80,7 +80,7 @@ app.get('/help/*', (req, res) =>{
     res.render('404',{
         title:'404 help page',
         name:'Arian Al Lami',
-        errprMsg:'Help article not found'
+        errorMsg:'Help article not found'
     })
 })
 
@@ -88,7 +88,7 @@ app.get('*', (req, res) => {
     res.render('404',{
         title:'404',
         name:'Arian Al Lami',
-        errprMsg:'Page not found'})
+        errorMsg:'Page not found'})
 })
 
 
